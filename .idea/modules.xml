@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DorJavaBase.iml" filepath="$PROJECT_DIR$/DorJavaBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IODemo/IODemo.iml" filepath="$PROJECT_DIR$/IODemo/IODemo.iml" />
+    </modules>
+  </component>
+</project>
