@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebdfa7e5-cad0-4a4b-b7f7-edc210decf19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/word/尚硅谷_宋红康_第13章_IO流.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/word/尚硅谷_宋红康_第14章_网络编程.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IODemo/src/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/IODemo/src/FileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IODemo/FileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IODemo/FileDemo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/word" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -62,27 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FileDemo.test1">
-    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileDemo" />
-      <module name="IODemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.HelloWorld" />
-      <module name="javaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FileDemo.testFile4">
     <configuration name="FileDemo.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IODemo" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,13 +94,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileDemo.testFile3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IODemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FileDemo" />
+      <option name="METHOD_NAME" value="testFile3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileDemo.testFile4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IODemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FileDemo" />
+      <option name="METHOD_NAME" value="testFile4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileDemo.testFile4" />
+        <item itemvalue="JUnit.FileDemo.testFile3" />
         <item itemvalue="JUnit.FileDemo.test1" />
         <item itemvalue="JUnit.FileDemo.testFile2" />
         <item itemvalue="JUnit.FileDemo.testFile" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.FileDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +137,8 @@
       <workItem from="1605798069303" duration="669000" />
       <workItem from="1605957244583" duration="5531000" />
       <workItem from="1606006797185" duration="3028000" />
-      <workItem from="1606040970310" duration="8449000" />
+      <workItem from="1606040970310" duration="8760000" />
+      <workItem from="1606137085127" duration="2110000" />
     </task>
     <servers />
   </component>

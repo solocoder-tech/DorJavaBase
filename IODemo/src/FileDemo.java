@@ -112,5 +112,47 @@ public class FileDemo {
 
         file3.delete();
     }
+    /**
+     * 2. 判断指定目录下是否有后缀名为.jpg的文件，如果有，就输出该文件名称
+     */
+    @Test
+    public void testFile3(){
+        File file = new File("D:\\BaiduNetdiskDownload\\尚硅谷Java学科全套教程（总207.77GB）\\1.尚硅谷全套JAVA教程--基础阶段（73.36GB）\\尚硅谷宋红康Java核心基础_好评如潮\\课件笔记源码资料\\新建文件夹\\3_文档资料\\桌面壁纸\\Eclipse快捷键壁纸");
+        String[] list = file.list();
+        if (list != null){
+            for (String s : list) {
+                if (s.endsWith(".jpg")){
+                    System.out.println(s);
+                }
+            }
+        }
+    }
+    /**
+     * 遍历指定目录所有文件名称，包括子文件目录中的文件。
+     * 拓展1：并计算指定目录占用空间的大小
+     * 拓展2：删除指定文件目录及其下的所有文件
+     */
+    @Test
+    public void testFile4(){
+        File file = new File("D:\\BaiduNetdiskDownload\\尚硅谷Java学科全套教程（总207.77GB）\\1.尚硅谷全套JAVA教程--基础阶段（73.36GB）");
+        Recursion(file);
+    }
+
+    /**
+     * 递归
+     * @param file
+     */
+    private void Recursion(File file) {
+        File[] files = file.listFiles();
+        if (files != null){
+            for (File file1 : files) {
+                if (file1.isDirectory()){
+                    Recursion(file1);
+                }else {
+                    System.out.println(file1.getAbsolutePath());
+                }
+            }
+        }
+    }
 }
 
