@@ -9,5 +9,5 @@ import java.io.File;
  *
  */
 public class FileDemo {
-    File file = new File();
+//    File file = new File();
 }
